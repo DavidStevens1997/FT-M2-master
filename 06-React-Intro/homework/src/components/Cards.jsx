@@ -8,7 +8,12 @@ export default function Cards(props) {
   return (<div>
     {
     props.cities && props.cities.map(city => (
-      <Card name={city.name} min={city.main.temp_min} max={city.main.temp_max} img={city.weather[0].icon} onClose={() => alert(city.name)}
+      <Card 
+      name={city.name} 
+      min={city.main.temp_min} 
+      max={city.main.temp_max} 
+      img={city.weather[0].icon} 
+      onClose={() => alert(city.name)}
       key={city.id}/>
       )
     )

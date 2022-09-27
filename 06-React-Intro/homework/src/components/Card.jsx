@@ -9,11 +9,14 @@ export default function Card({max, min, name, img, onClose}) {
       <div>
         <h3>Min</h3>
         <p>{min}</p>
+      </div>
+      <div>
         <h3>Max</h3>
         <p>{max}</p>
-        <img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt={"img"}/>
       </div>
-      <div></div>
+      <div><img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt={"img"}/></div>
+     
+      
     </>
   )
   
