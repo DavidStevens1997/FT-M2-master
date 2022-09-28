@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from './Card';
+import style from '../styles/Cards.module.css';
 
 export default function Cards(props) {
   // acá va tu código
   // tip, podés usar un map
   if (!props.cities) return <h1>No hay ciudades disponibles!</h1>;
-  return (<div>
+  return (<div className={style.container}>
     {
     props.cities && props.cities.map(city => (
       <Card 

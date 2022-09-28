@@ -1,0 +1,20 @@
+.container {
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+} 
+
+
+.btnSearch {
+    color: green;
+    background-color: rgb(10, 15, 10);
+    border-radius: 7px;
+    margin-left: 3px;
+}
+
+.btnSearch:hover {
+    background-color: rgb(10, 15, 10);
+    color: lightgreen;
+
+}
