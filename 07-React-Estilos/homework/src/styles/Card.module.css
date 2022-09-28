@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: green;
+    background-color: rgb(10, 15, 10) ;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.btn {
+    color: green;
+    background-color: rgb(10, 15, 10) ;
+    border: 2px solid lightgray; 
+}
+
+.btn:hover {
+    color: lightgreen;
+}
