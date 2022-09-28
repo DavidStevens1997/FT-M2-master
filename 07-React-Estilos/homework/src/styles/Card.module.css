@@ -8,10 +8,18 @@
     border-radius: 10px;
 }
 
+.card:hover {
+    color: lightgreen;
+}
+
 .btn {
     color: green;
     background-color: rgb(10, 15, 10) ;
-    border: 2px solid lightgray; 
+    border: 2px solid green;
+    width: 25px;
+    border-radius: 10px;
+    margin: 5px;
+    align-self: flex-end; 
 }
 
 .btn:hover {
