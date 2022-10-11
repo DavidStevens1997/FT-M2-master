@@ -54,7 +54,8 @@ export default function  Form() {
         <input type="password" name="password" placeholder="password" onChange={handleInputChange} value={input.password} />
     </div>
     <div>
-        <input type="submit" />
+        <input type="submit"
+        disabled={Object.keys(errors).length !==0 || !input.password || !input.username} />
     </div>
     
   </form>
