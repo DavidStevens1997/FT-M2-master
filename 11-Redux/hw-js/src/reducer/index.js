@@ -20,14 +20,18 @@ function contador(state = initialState, action) {
       };
 
     case IMPAR:
-      return {
-        
+      if (state.contador % 2 !== 0) {
+        return {
+          contador: state.contador + 1
+        }
+      } else {
+        return state
       };
 
     case ASYNC:
       return {
-        
-      };
+        contador: state.contador + 1 
+      }
   
     default:
       return state;

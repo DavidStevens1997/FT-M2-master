@@ -6,5 +6,6 @@ const ASYNC = 'ASYNC'
 module.exports = {
   INCREMENTO,
   DECREMENTO,
-  IMPAR
+  IMPAR,
+  ASYNC
 }
